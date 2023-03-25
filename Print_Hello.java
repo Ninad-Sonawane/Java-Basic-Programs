@@ -7,13 +7,22 @@ public class Print_Hello {
 	public static void main(String[] args) {
 		
 		//--------------1------------//
+		//Simple Print Hello 
+		
 		/*System.out.println("Hello");
 		System.out.println("NINAD SONAWANE");
 		*/
+		
+		
 		//--------------2------------//
+		
+		
 		//System.out.println("Hello\nNINAD SONAWANE");
 		
+		
+		
 		//--------------3------------//
+		
 		// Sample solution using input from the user:
 		
 		/*Scanner input = new Scanner (System.in);
@@ -24,11 +33,6 @@ public class Print_Hello {
 		System.out.println();
 		System.out.println("Hello\n"+ aname+" "+ bname);*/
 		
-		
-		
-		
-				
-
 	}
 
 }
