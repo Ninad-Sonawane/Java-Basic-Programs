@@ -1,0 +1,24 @@
+import java.util.*;
+ 
+class SwapTwoNumbers {
+    
+    //create temporary variable 
+    static void swapTwoNumbers(int m , int n){
+    
+    //swapping the values 
+    int tempo  = m ;
+     m = n ;
+     n = tempo ;
+      System.out.println("the value of m is "+ m + ", the value of n is " + n);
+    }
+    
+    // main method 
+    public static void main (String []args ){
+        
+    // random Integer value 
+    int m = 10 , n = 20 ;
+    
+    //calling the above method to swap number
+    swapTwoNumbers(m,n);
+    }
+}
