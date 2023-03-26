@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class ReadAndPrintAnIntegerValue1 {
+
+	public static void main(String[] args) {
+		int num = 0;
+
+		System.out.println("Enter An Integer Value");
+		Scanner obj = new Scanner(System.in);
+		num = obj.nextInt();
+		System.out.println("Your input is " + num);
+
+	}
+
+}
