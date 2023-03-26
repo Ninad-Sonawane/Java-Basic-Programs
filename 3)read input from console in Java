@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class WaysToReadInputFromConsole2 {
+
+	int num;
+
+	public static void main(String args[]) {
+		System.out.println("Enter Your Name ");
+		// Using Scanner for Getting Input from User
+		Scanner in =new Scanner(System.in);
+		String s = (in.next());
+		
+		
+	    System.out.println("Enter Your Age ");
+		int a = (in.nextInt());
+		System.out.println( "Hello Legend " + s +", Your age is " + a +".");
+		
+		
+	}
+}
